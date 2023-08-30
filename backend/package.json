@@ -1,0 +1,22 @@
+{
+  "name": "reactive_blog_api",
+  "version": "1.0.0",
+  "description": "This is a simple and robust blog api that i created for reactive blog page.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Abhijit Karmakar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.2",
+    "nodemon": "^3.0.1"
+  }
+}
